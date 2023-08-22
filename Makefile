@@ -8,3 +8,6 @@ pc:
 
 a:
 	cd bestsellers && poetry run python main.py
+
+env: 
+	cp .env.sample .env
