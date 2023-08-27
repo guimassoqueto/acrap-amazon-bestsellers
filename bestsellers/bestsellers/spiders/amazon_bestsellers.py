@@ -14,7 +14,6 @@ class AmazonBestsellersSpider(scrapy.Spider):
 
     def start_requests(self):
         urls = get_urls(self.categories)
-        logger.error("ERRRRROR", urls)
         for url in urls:
             yield scrapy.Request(
                 url, 
