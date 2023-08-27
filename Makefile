@@ -11,3 +11,6 @@ a:
 
 env: 
 	cp .env.sample .env
+	
+or:
+	open https://github.com/guimassoqueto/scrap-amazon-bestsellers
