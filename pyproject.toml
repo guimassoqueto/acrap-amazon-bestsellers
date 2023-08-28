@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "scrap-amazon-bestsellers"
-version = "0.1.0"
+version = "3.0.3"
 description = "Scrap Amazon Bestsellers"
 authors = ["guimassoqueto <gui.massoqueto@gmail.com>"]
 readme = "README.md"
