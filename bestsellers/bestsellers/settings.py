@@ -39,6 +39,15 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
   "timeout": 20 * 1000,  # 20 seconds
 }
 
+PLAYWRIGHT_CONTEXTS = {
+    "default": {
+        "viewport": {
+            "width": 1920,
+            "height": 15000,
+        },
+    },
+}
+
 ITEM_PIPELINES = {
   "bestsellers.pipelines.BestsellersPipeline": 300,
   "bestsellers.pipelines.SendMessagePipeline": 400,

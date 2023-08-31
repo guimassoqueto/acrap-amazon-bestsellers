@@ -17,13 +17,7 @@ class AmazonBestsellersSpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(
                 url, 
-                meta={
-                    "playwright": True,
-                    "playwight_page_methods": [
-                        PageMethod("wait_for_selector", "body"),
-                        PageMethod("evaluate", "window.scrollBy(0, document.body.scrollHeight * 0.85)")
-                    ]
-                }
+                meta={ "playwright": True }
             )
 
     def parse(self, response):
