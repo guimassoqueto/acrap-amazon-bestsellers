@@ -9,7 +9,7 @@ packages = [{include = "bestsellers/**/*py"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 scrapy = "^2.10.0"
-scrapy-playwright = "^0.0.30"
+scrapy-playwright = "^0.0.31"
 python-dotenv = "^1.0.0"
 pika = "^1.3.2"
 
