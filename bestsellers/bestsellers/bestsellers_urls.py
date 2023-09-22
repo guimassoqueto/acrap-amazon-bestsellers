@@ -138,6 +138,16 @@ BESTSELLERS_URLS = {
     "https://www.amazon.com.br/gp/most-wished-for/books/?pg=2", 
     "https://www.amazon.com.br/gp/new-releases/books/?pg=1",
     "https://www.amazon.com.br/gp/new-releases/books/?pg=2"   
+  ],
+  "sports": [
+    "https://www.amazon.com.br/gp/bestsellers/sports/?pg=1",
+    "https://www.amazon.com.br/gp/bestsellers/sports/?pg=2",
+    "https://www.amazon.com.br/gp/movers-and-shakers/sports/?pg=1",
+    "https://www.amazon.com.br/gp/movers-and-shakers/sports/?pg=2",
+    "https://www.amazon.com.br/gp/most-wished-for/sports/?pg=1",
+    "https://www.amazon.com.br/gp/most-wished-for/sports/?pg=2", 
+    "https://www.amazon.com.br/gp/new-releases/sports/?pg=1",
+    "https://www.amazon.com.br/gp/new-releases/sports/?pg=2"        
   ]
 }
 
